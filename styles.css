@@ -1,0 +1,148 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #111;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.sticky h1 {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 24px; /* Increase font size */
+}
+
+.sticky nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.sticky nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.sticky nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 80px auto 0 auto; /* Adjusted to accommodate the sticky header */
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Search results styles */
+.movie {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.movie:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.movie img {
+  max-width: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.movie h2 {
+  margin: 0;
+}
+
+/* Button hover effect */
+.favorite-btn:hover {
+  background-color: #ff0000;
+}
+
+/* Button styles */
+.favorite-btn {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Update the styles for single movie display */
+.movie {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.movie:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.movie img {
+  max-width: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.movie-details {
+  flex-grow: 1;
+}
+
+.movie h2 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.movie p {
+  margin: 0;
+}
+
+/* Button hover effect */
+.favorite-btn:hover {
+  background-color: #ff0000;
+}
+
+/* Button styles */
+.favorite-btn {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
